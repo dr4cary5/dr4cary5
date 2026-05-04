@@ -1,19 +1,15 @@
 <div align="center">
-
+<img src="terminal.svg" alt="Matrix Terminal" width="800" />
+<br><br>
 <!-- ماتریکس ریین -->
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Matrix Rain" />
 
 <br>
 <!-- متن ماتریکسی -->
-<br><br>
 
 <!-- ترمینال ثابت ماتریکسی -->
-<img src="terminal.svg" alt="Matrix Terminal" width="800" />
-
 <br><br>
-
 <!-- نقل قول معروف -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&amp;theme=matrix-green" alt="Random Quote" />
 
 <br><br>
 
