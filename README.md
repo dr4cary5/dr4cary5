@@ -1,22 +1,5 @@
-<div align="left" style="background-color: #000000; padding: 20px; border-radius: 5px;">
-
-<pre style="color: #00FF41; font-family: 'Courier New', monospace; font-size: 14px; line-height: 1.5;">
-<span style="color: #FF5555;">┌──(</span><span style="color: #FF5555;">root㉿kali</span><span style="color: #FF5555;">)-[</span><span style="color: #00FF41;">~</span><span style="color: #FF5555;">]</span>
-<span style="color: #FF5555;">└─#</span> <span style="color: #00FF41;">cat /etc/matrix/message.txt</span>
-
-<span style="color: #00FF41;">Wake up, Neo...</span>
-<span style="color: #00FF41;">The Matrix has you...</span>
-<span style="color: #00FF41;">Follow the white rabbit.</span>
-
-<span style="color: #FF5555;">┌──(</span><span style="color: #FF5555;">root㉿kali</span><span style="color: #FF5555;">)-[</span><span style="color: #00FF41;">~</span><span style="color: #FF5555;">]</span>
-<span style="color: #FF5555;">└─#</span> <span style="color: #00FF41;">echo "Knock, knock, Neo."</span>
-<span style="color: #00FF41;">Knock, knock, Neo.</span>
-
-<span style="color: #FF5555;">┌──(</span><span style="color: #FF5555;">root㉿kali</span><span style="color: #FF5555;">)-[</span><span style="color: #00FF41;">~</span><span style="color: #FF5555;">]</span>
-<span style="color: #FF5555;">└─#</span> <span style="color: #00FF41;">exit</span>
-<span style="color: #888888;">logout</span>
-</pre>
-
+<div align="left" style="background-color: #0D1117; padding: 15px; border-radius: 6px; border: 1px solid #30363D; margin-bottom: 20px;">
+  <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=600&size=16&duration=1500&pause=500&color=FF5555&background=0D1117&vCenter=true&multiline=true&repeat=true&random=false&width=1000&height=400&lines=%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+cat+%2Fetc%2Fmatrix%2Fmessage.txt;++;Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit...;++;%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+echo+%22Knock%2C+knock%2C+Neo.%22;Knock%2C+knock%2C+Neo.;++;%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+exit;logout;++;Connecting+to+Matrix...;Access+Granted.+Welcome.+Neo." alt="Matrix Terminal" />
 </div>
 
 <br>
