@@ -4,10 +4,7 @@
 <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Matrix Rain" />
 
 <br>
-
 <!-- متن ماتریکسی -->
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&amp;weight=600&amp;size=24&amp;duration=2000&amp;pause=500&amp;color=00FF41&amp;background=000000&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;random=false&amp;width=800&amp;height=200&amp;lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit...;Knock%2C+knock%2C+Neo.;Access+Granted.;Welcome+to+the+Matrix." alt="Matrix Text" />
-
 <br><br>
 
 <!-- ترمینال ثابت ماتریکسی -->
