@@ -6,6 +6,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=2000&pause=600&color=00FF41&background=000000&center=true&vCenter=true&multiline=true&repeat=false&random=false&width=600&height=120&lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit.)](https://git.io/typing-svg)
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Courier+New&weight=500&size=22&duration=2500&pause=800&color=00FF41&background=000000&center=true&vCenter=true&multiline=true&width=700&height=150&lines=%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+cat+%2Fetc%2Fmatrix%2Fmessage.txt;Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit...;%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+exit;Knock%2C+knock%2C+Neo.)](https://git.io/typing-svg)
 <br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="900">
