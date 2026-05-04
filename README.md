@@ -1,5 +1,60 @@
-<div align="left" style="background-color: #0D1117; padding: 15px; border-radius: 6px; border: 1px solid #30363D; margin-bottom: 20px;">
-  <img src="https://readme-typing-svg.demolab.com?font=Courier+New&weight=600&size=16&duration=1500&pause=500&color=FF5555&background=0D1117&vCenter=true&multiline=true&repeat=true&random=false&width=1000&height=400&lines=%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+cat+%2Fetc%2Fmatrix%2Fmessage.txt;++;Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit...;++;%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+echo+%22Knock%2C+knock%2C+Neo.%22;Knock%2C+knock%2C+Neo.;++;%E2%94%8C%E2%94%80%E2%94%80(%E2%94%80%E2%94%80root%E2%94%80kali)-%5B~%5D;%E2%94%94%E2%94%80%23+exit;logout;++;Connecting+to+Matrix...;Access+Granted.+Welcome.+Neo." alt="Matrix Terminal" />
+<div align="left" style="background-color:#0D1117; padding:20px; border-radius:6px; border:1px solid #30363D; font-family:'Courier New',monospace; font-size:14px; line-height:1.8; overflow:hidden;">
+  
+<style>
+  @keyframes typing1 {
+    0% { opacity:0; } 5% { opacity:1; } 20% { opacity:1; } 25% { opacity:0; } 100% { opacity:0; }
+  }
+  @keyframes typing2 {
+    0% { opacity:0; } 25% { opacity:0; } 30% { opacity:1; } 45% { opacity:1; } 50% { opacity:0; } 100% { opacity:0; }
+  }
+  @keyframes typing3 {
+    0% { opacity:0; } 50% { opacity:0; } 55% { opacity:1; } 70% { opacity:1; } 75% { opacity:0; } 100% { opacity:0; }
+  }
+  @keyframes typing4 {
+    0% { opacity:0; } 75% { opacity:0; } 80% { opacity:1; } 95% { opacity:1; } 100% { opacity:0; }
+  }
+  .cmd-group { position:absolute; width:100%; animation-duration:8s; animation-iteration-count:infinite; opacity:0; }
+  .cmd-group:nth-child(1) { animation-name:typing1; }
+  .cmd-group:nth-child(2) { animation-name:typing2; }
+  .cmd-group:nth-child(3) { animation-name:typing3; }
+  .cmd-group:nth-child(4) { animation-name:typing4; }
+  .prompt { color:#FF5555; }
+  .command { color:#8BE9FD; }
+  .output { color:#00FF41; }
+  .info { color:#F1FA8C; }
+</style>
+
+<div style="position:relative; min-height:180px;">
+
+<div class="cmd-group">
+  <span class="prompt">┌──(root㉿kali)-[~]</span><br>
+  <span class="prompt">└─#</span> <span class="command">nmap -sT matrix.io</span><br>
+  <span class="output">PORT&nbsp;&nbsp;&nbsp;STATE&nbsp;&nbsp;SERVICE<br>80/tcp&nbsp;open&nbsp;&nbsp;http<br>443/tcp open&nbsp;&nbsp;https</span>
+</div>
+
+<div class="cmd-group">
+  <span class="prompt">┌──(root㉿kali)-[~]</span><br>
+  <span class="prompt">└─#</span> <span class="command">cat /etc/matrix/message.txt</span><br>
+  <span class="output">Wake up, Neo...<br>The Matrix has you...<br>Follow the white rabbit.</span>
+</div>
+
+<div class="cmd-group">
+  <span class="prompt">┌──(root㉿kali)-[~]</span><br>
+  <span class="prompt">└─#</span> <span class="command">ssh neo@matrix.io</span><br>
+  <span class="info">neo@matrix.io's password:</span><br>
+  <span class="output">Access Granted. Welcome, Neo.</span>
+</div>
+
+<div class="cmd-group">
+  <span class="prompt">┌──(root㉿kali)-[~]</span><br>
+  <span class="prompt">└─#</span> <span class="command">exit</span><br>
+  <span class="output">logout<br>Connection to matrix.io closed.</span><br>
+  <span class="prompt">┌──(root㉿kali)-[~]</span><br>
+  <span class="prompt">└─#</span> <span class="command">./enter_matrix.sh</span><br>
+  <span class="output">Reconnecting...</span>
+</div>
+
+</div>
 </div>
 
 <br>
