@@ -16,7 +16,7 @@
 <br>
 
 <!-- ترمینال هکری انیمیشنی -->
-<img src="terminal-hacker.svg" alt="Hacker Terminal" width="800" />
+<img src="terminal.svg" alt="Hacker Terminal" width="800" />
 
 <br>
 
