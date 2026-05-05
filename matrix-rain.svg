@@ -124,4 +124,28 @@
     <animate attributeName="y" from="-240" to="250" dur="7.5s" repeatCount="indefinite"/>
     <tspan x="710" dy="0">K</tspan><tspan x="710" dy="8">A</tspan><tspan x="710" dy="8">L</tspan><tspan x="710" dy="8">I</tspan><tspan x="710" dy="8">4</tspan><tspan x="710" dy="8">2</tspan><tspan x="710" dy="8">K</tspan><tspan x="710" dy="8">A</tspan><tspan x="710" dy="8">L</tspan><tspan x="710" dy="8">I</tspan>
   </text>
+    <text font-family="monospace" font-size="8" font-weight="bold" fill="url(#dim)" opacity="0.32">
+    <animate attributeName="y" from="-250" to="250" dur="7s" repeatCount="indefinite"/>
+    <tspan x="35" dy="0">0</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">0</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">0</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">0</tspan><tspan x="35" dy="8">0</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">0</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">1</tspan><tspan x="35" dy="8">0</tspan>
+  </text>
+  
+  <text font-family="monospace" font-size="7" font-weight="bold" fill="url(#dim)" opacity="0.25">
+    <animate attributeName="y" from="-200" to="250" dur="8s" repeatCount="indefinite"/>
+    <tspan x="180" dy="0">1</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">1</tspan><tspan x="180" dy="7">0</tspan><tspan x="180" dy="7">1</tspan>
+  </text>
+  
+  <text font-family="monospace" font-size="9" font-weight="bold" fill="url(#dim)" opacity="0.45">
+    <animate attributeName="y" from="-220" to="250" dur="6.5s" repeatCount="indefinite"/>
+    <tspan x="350" dy="0">N</tspan><tspan x="350" dy="10">E</tspan><tspan x="350" dy="10">O</tspan><tspan x="350" dy="10">4</tspan><tspan x="350" dy="10">2</tspan><tspan x="350" dy="10">N</tspan><tspan x="350" dy="10">E</tspan><tspan x="350" dy="10">O</tspan><tspan x="350" dy="10">4</tspan><tspan x="350" dy="10">2</tspan>
+  </text>
+  
+  <text font-family="monospace" font-size="6" font-weight="bold" fill="url(#dim)" opacity="0.35">
+    <animate attributeName="y" from="-230" to="260" dur="9s" repeatCount="indefinite"/>
+    <tspan x="500" dy="0">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">1</tspan><tspan x="500" dy="6">0</tspan>
+  </text>
+  
+  <text font-family="monospace" font-size="8" font-weight="bold" fill="url(#dim)" opacity="0.28">
+    <animate attributeName="y" from="-240" to="250" dur="7.5s" repeatCount="indefinite"/>
+    <tspan x="710" dy="0">K</tspan><tspan x="710" dy="8">A</tspan><tspan x="710" dy="8">L</tspan><tspan x="710" dy="8">I</tspan><tspan x="710" dy="8">4</tspan><tspan x="710" dy="8">2</tspan><tspan x="710" dy="8">K</tspan><tspan x="710" dy="8">A</tspan><tspan x="710" dy="8">L</tspan><tspan x="710" dy="8">I</tspan>
+  </text>
 </svg>
