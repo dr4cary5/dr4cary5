@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250" viewBox="0 0 800 250">
+  <rect width="100%" height="100%" fill="#0D1117"/>
+  
+  <!-- اسلاید ۱: nmap -->
+  <g>
+    <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;0;0;0;0" keyTimes="0;0.14;0.16;0.3;0.46;0.6;0.76;0.9;1" dur="6s" repeatCount="indefinite"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#FF5555">┌──(root㉿kali)-[~]</text>
+    <text x="20" y="50" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="50" font-family="monospace" font-size="14" fill="#8BE9FD">nmap -sT -p- 192.168.1.1</text>
+    <text x="20" y="75" font-family="monospace" font-size="14" fill="#00FF41">PORT     STATE    SERVICE</text>
+    <text x="20" y="95" font-family="monospace" font-size="14" fill="#00FF41">22/tcp   open     ssh</text>
+    <text x="20" y="115" font-family="monospace" font-size="14" fill="#00FF41">80/tcp   open     http</text>
+    <text x="20" y="135" font-family="monospace" font-size="14" fill="#00FF41">443/tcp  open     https</text>
+    <text x="20" y="155" font-family="monospace" font-size="14" fill="#00FF41">3306/tcp open     mysql</text>
+  </g>
+
+  <!-- اسلاید ۲: iptables -->
+  <g>
+    <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0;0;0;0" keyTimes="0;0.14;0.16;0.3;0.46;0.6;0.76;0.9;1" dur="6s" repeatCount="indefinite"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#FF5555">┌──(root㉿kali)-[~]</text>
+    <text x="20" y="50" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="50" font-family="monospace" font-size="14" fill="#8BE9FD">iptables -A INPUT -p tcp --dport 22 -j DROP</text>
+    <text x="20" y="75" font-family="monospace" font-size="14" fill="#F1FA8C">[!] Firewall rule added</text>
+    <text x="20" y="100" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="100" font-family="monospace" font-size="14" fill="#8BE9FD">iptables -L -v</text>
+    <text x="20" y="125" font-family="monospace" font-size="14" fill="#00FF41">Chain INPUT (policy ACCEPT)</text>
+    <text x="20" y="145" font-family="monospace" font-size="14" fill="#00FF41">DROP  tcp -- any any anywhere anywhere tcp dpt:ssh</text>
+  </g>
+
+  <!-- اسلاید ۳: hashdump -->
+  <g>
+    <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0;0;0;0" keyTimes="0;0.3;0.32;0.46;0.62;0.78;0.94;1" dur="6s" repeatCount="indefinite"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#FF5555">┌──(root㉿kali)-[~]</text>
+    <text x="20" y="50" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="50" font-family="monospace" font-size="14" fill="#8BE9FD">cat /etc/shadow | grep admin</text>
+    <text x="20" y="75" font-family="monospace" font-size="14" fill="#00FF41">admin:$6$salt$hash1hash2hash3:19000:0:99999:7:::</text>
+    <text x="20" y="100" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="100" font-family="monospace" font-size="14" fill="#8BE9FD">echo "Hash extracted successfully"</text>
+    <text x="20" y="125" font-family="monospace" font-size="14" fill="#F1FA8C">[✓] Hash saved to hashes.txt</text>
+  </g>
+
+  <!-- اسلاید ۴: john -->
+  <g>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0;0;0;0" keyTimes="0;0.46;0.48;0.62;0.78;0.94;1" dur="6s" repeatCount="indefinite"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#FF5555">┌──(root㉿kali)-[~]</text>
+    <text x="20" y="50" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="50" font-family="monospace" font-size="14" fill="#8BE9FD">john --wordlist=rockyou.txt hashes.txt</text>
+    <text x="20" y="75" font-family="monospace" font-size="14" fill="#00FF41">Loaded 1 password hash</text>
+    <text x="20" y="95" font-family="monospace" font-size="14" fill="#00FF41">password123    (admin)</text>
+    <text x="20" y="120" font-family="monospace" font-size="14" fill="#F1FA8C">[✓] Cracked: password123</text>
+  </g>
+
+  <!-- اسلاید ۵: reverse shell -->
+  <g>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;1;0;0" keyTimes="0;0.62;0.64;0.78;0.94;1" dur="6s" repeatCount="indefinite"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#FF5555">┌──(root㉿kali)-[~]</text>
+    <text x="20" y="50" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="50" font-family="monospace" font-size="14" fill="#8BE9FD">nc -lvnp 4444</text>
+    <text x="20" y="75" font-family="monospace" font-size="14" fill="#00FF41">listening on [any] 4444...</text>
+    <text x="20" y="95" font-family="monospace" font-size="14" fill="#00FF41">connect to [192.168.1.100] from target 4444</text>
+    <text x="20" y="115" font-family="monospace" font-size="14" fill="#F1FA8C">[✓] Shell obtained</text>
+  </g>
+
+  <!-- اسلاید ۶: موفقیت -->
+  <g>
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;0;0;1;1" keyTimes="0;0.78;0.8;0.94;1" dur="6s" repeatCount="indefinite"/>
+    <text x="20" y="30" font-family="monospace" font-size="14" fill="#FF5555">┌──(root㉿kali)-[~]</text>
+    <text x="20" y="50" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="50" font-family="monospace" font-size="14" fill="#8BE9FD">echo "Mission Complete"</text>
+    <text x="20" y="80" font-family="monospace" font-size="20" fill="#00FF41">[ SYSTEM COMPROMISED ]</text>
+    <text x="20" y="110" font-family="monospace" font-size="16" fill="#F1FA8C">I'm in.</text>
+    <text x="20" y="140" font-family="monospace" font-size="14" fill="#FF5555">└─#</text><text x="55" y="140" font-family="monospace" font-size="14" fill="#8BE9FD">exit</text>
+  </g>
+</svg>
