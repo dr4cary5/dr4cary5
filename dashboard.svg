@@ -33,19 +33,27 @@
   <rect x="80" y="117" width="45" height="10" fill="#F1FA8C" rx="3"/>
   <text x="210" y="130" font-family="monospace" font-size="12" fill="#F1FA8C">45%</text>
   
-  <!-- لاگ‌ها -->
+  <!-- LOG STREAM - سمت راست، متن از پایین میاد بالا -->
   <text x="300" y="25" font-family="monospace" font-size="14" fill="#F1FA8C">[LOG STREAM]</text>
-  <text font-family="monospace" font-size="12" fill="#00FF41">
-    <animate attributeName="y" from="180" to="-50" dur="6s" repeatCount="indefinite"/>
-    <tspan x="300" dy="0">[OK] SSH connection established</tspan>
-    <tspan x="300" dy="18">[OK] Firewall bypassed</tspan>
-    <tspan x="300" dy="18">[OK] Hash dump complete</tspan>
-    <tspan x="300" dy="18">[OK] Password cracked</tspan>
-    <tspan x="300" dy="18">[OK] Reverse shell active</tspan>
-    <tspan x="300" dy="18">[OK] Root access obtained</tspan>
-    <tspan x="300" dy="18">[OK] Covering tracks...</tspan>
-    <tspan x="300" dy="18">[OK] Mission complete</tspan>
-  </text>
+  <clipPath id="logClip">
+    <rect x="300" y="35" width="280" height="155"/>
+  </clipPath>
+  <g clip-path="url(#logClip)">
+    <text font-family="monospace" font-size="11" fill="#00FF41">
+      <animate attributeName="y" from="200" to="20" dur="10s" repeatCount="indefinite"/>
+      <tspan x="305" dy="0">[OK] SSH connection established</tspan>
+      <tspan x="305" dy="16">[OK] Firewall bypassed</tspan>
+      <tspan x="305" dy="16">[OK] Hash dump complete</tspan>
+      <tspan x="305" dy="16">[OK] Password cracked</tspan>
+      <tspan x="305" dy="16">[OK] Reverse shell active</tspan>
+      <tspan x="305" dy="16">[OK] Root access obtained</tspan>
+      <tspan x="305" dy="16">[OK] Covering tracks...</tspan>
+      <tspan x="305" dy="16">[OK] Mission complete</tspan>
+      <tspan x="305" dy="16">[OK] Encrypting files...</tspan>
+      <tspan x="305" dy="16">[OK] Sending report...</tspan>
+      <tspan x="305" dy="16">[OK] Disconnecting...</tspan>
+    </text>
+  </g>
   
   <!-- ساعت -->
   <text x="650" y="55" font-family="monospace" font-size="24" fill="#00FF41" text-anchor="middle">
@@ -65,5 +73,4 @@
   <rect x="560" y="150" width="0" height="12" fill="#00FF41" rx="3">
     <animate attributeName="width" from="0" to="180" dur="4s" repeatCount="indefinite"/>
   </rect>
-  <text x="740" y="162" font-family="monospace" font-size="12" fill="#00FF41">DONE</text>
 </svg>
