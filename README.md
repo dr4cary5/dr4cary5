@@ -1,7 +1,6 @@
 <div align="center">
 
 <!-- ماتریکس رین -->
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Matrix Snake" />
 
 <br>
 
@@ -9,10 +8,7 @@
 <img src="matrix-rain.svg" alt="Matrix Rain" width="800" />
 
 <br>
-
 <!-- متن تایپ شونده -->
-<img src="https://readme-typing-svg.demolab.com?font=Courier+New&amp;weight=600&amp;size=22&amp;duration=1500&amp;pause=500&amp;color=00FF41&amp;background=000000&amp;center=true&amp;vCenter=true&amp;multiline=true&amp;repeat=true&amp;random=false&amp;width=800&amp;height=150&amp;lines=Wake+up%2C+Neo...;The+Matrix+has+you...;Follow+the+white+rabbit...;Knock%2C+knock%2C+Neo." alt="Matrix Text" />
-
 <br>
 
 <!-- ترمینال هکری انیمیشنی -->
@@ -39,5 +35,10 @@
 <br>
 
 <img src="https://komarev.com/ghpvc/?username=dr4cary5&amp;color=00FF41&amp;style=flat-square&amp;label=MATRIX+CONNECTIONS" alt="Views" />
+
+<br>
+
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Matrix Snake" />
+
 
 </div>
