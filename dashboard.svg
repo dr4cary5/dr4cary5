@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="100%" height="100%" fill="#0D1117"/>
+  
+  <!-- عنوان -->
+  <text x="20" y="25" font-family="monospace" font-size="16" fill="#00FF41" font-weight="bold">╔══ SYSTEM MONITOR ══╗</text>
+  
+  <!-- CPU -->
+  <text x="20" y="55" font-family="monospace" font-size="14" fill="#8BE9FD">CPU:</text>
+  <rect x="80" y="42" width="120" height="16" fill="#333" rx="3"/>
+  <rect x="80" y="42" width="0" height="16" fill="#00FF41" rx="3">
+    <animate attributeName="width" values="45;87;23;92;56;78;34;67;89;45;67;92" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="210" y="55" font-family="monospace" font-size="12" fill="#00FF41">78%</text>
+  
+  <!-- RAM -->
+  <text x="20" y="80" font-family="monospace" font-size="14" fill="#8BE9FD">RAM:</text>
+  <rect x="80" y="67" width="120" height="16" fill="#333" rx="3"/>
+  <rect x="80" y="67" width="0" height="16" fill="#FF5555" rx="3">
+    <animate attributeName="width" values="92;45;78;34;67;89;23;87;56;92;34;67" dur="4.5s" repeatCount="indefinite"/>
+  </rect>
+  <text x="210" y="80" font-family="monospace" font-size="12" fill="#FF5555">92%</text>
+  
+  <!-- Network -->
+  <text x="20" y="105" font-family="monospace" font-size="14" fill="#8BE9FD">NET:</text>
+  <polyline fill="none" stroke="#00FF41" stroke-width="2" points="80,110 100,100 110,115 130,105 150,110 170,100 190,108">
+    <animate attributeName="points" values="80,110 100,100 110,115 130,105 150,110 170,100 190,108;80,105 100,115 110,100 130,110 150,95 170,105 190,100;80,110 100,100 110,115 130,105 150,110 170,100 190,108" dur="1.5s" repeatCount="indefinite"/>
+  </polyline>
+  <text x="210" y="105" font-family="monospace" font-size="12" fill="#00FF41">↑ 1.2 MB/s</text>
+  
+  <!-- Disk -->
+  <text x="20" y="130" font-family="monospace" font-size="14" fill="#8BE9FD">DSK:</text>
+  <rect x="80" y="117" width="120" height="10" fill="#333" rx="3"/>
+  <rect x="80" y="117" width="45" height="10" fill="#F1FA8C" rx="3"/>
+  <text x="210" y="130" font-family="monospace" font-size="12" fill="#F1FA8C">45%</text>
+  
+  <!-- لاگ‌ها -->
+  <text x="300" y="25" font-family="monospace" font-size="14" fill="#F1FA8C">[LOG STREAM]</text>
+  <text font-family="monospace" font-size="12" fill="#00FF41">
+    <animate attributeName="y" from="180" to="-50" dur="6s" repeatCount="indefinite"/>
+    <tspan x="300" dy="0">[OK] SSH connection established</tspan>
+    <tspan x="300" dy="18">[OK] Firewall bypassed</tspan>
+    <tspan x="300" dy="18">[OK] Hash dump complete</tspan>
+    <tspan x="300" dy="18">[OK] Password cracked</tspan>
+    <tspan x="300" dy="18">[OK] Reverse shell active</tspan>
+    <tspan x="300" dy="18">[OK] Root access obtained</tspan>
+    <tspan x="300" dy="18">[OK] Covering tracks...</tspan>
+    <tspan x="300" dy="18">[OK] Mission complete</tspan>
+  </text>
+  
+  <!-- ساعت -->
+  <text x="650" y="55" font-family="monospace" font-size="24" fill="#00FF41" text-anchor="middle">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    ⏰ 03:47:22
+  </text>
+  
+  <!-- Status -->
+  <text x="650" y="105" font-family="monospace" font-size="16" fill="#00FF41" text-anchor="middle">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    ● ONLINE
+  </text>
+  
+  <!-- Progress bar -->
+  <text x="650" y="140" font-family="monospace" font-size="14" fill="#8BE9FD" text-anchor="middle">ENCRYPTING:</text>
+  <rect x="560" y="150" width="180" height="12" fill="#333" rx="3"/>
+  <rect x="560" y="150" width="0" height="12" fill="#00FF41" rx="3">
+    <animate attributeName="width" from="0" to="180" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="740" y="162" font-family="monospace" font-size="12" fill="#00FF41">DONE</text>
+</svg>
